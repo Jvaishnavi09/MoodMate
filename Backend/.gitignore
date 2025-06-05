@@ -6,30 +6,25 @@ __pycache__/
 # Distribution / packaging
 .Python
 env/
-venv/
+venv/  # <--- MAKE SURE THIS IS HERE
 *.egg-info/
-.installed.extensions
 build/
 dist/
 
 # Editors
-.vscode/        # VS Code settings (optional, if you want to ignore workspace specific settings)
-.idea/          # IntelliJ IDEA (PyCharm) files
+.vscode/
+.idea/
 *.sublime-project
 *.sublime-workspace
 
 # OS generated files
-.DS_Store       # macOS
-.Trashes        # macOS
-Thumbs.db       # Windows
-ehthumbs.db     # Windows
+.DS_Store
+.Trashes
+Thumbs.db
+ehthumbs.db
 *.log
-*.sqlite3       # If you use SQLite for development, ignore its DB file
-.flaskenv       # Flask development environment variables
+*.sqlite3
+.flaskenv
 
 # Environment variables
-.env            # Your .env file where you store API keys, etc.
-# .env.local    # If you use dotenv-local style for local vars
-
-# Specific to your project
-/instance/      # Flask instance folder (often contains config.py, database.db)
+.env   # <--- MAKE SURE THIS IS HERE
