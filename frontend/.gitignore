@@ -1,0 +1,3 @@
+# dependencies
+
+.env            # Your .env file for frontend environment variables
