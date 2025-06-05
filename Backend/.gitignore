@@ -28,3 +28,4 @@ ehthumbs.db
 
 # Environment variables
 .env   # <--- MAKE SURE THIS IS HERE
+.venv
